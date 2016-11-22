@@ -1,0 +1,45 @@
+{
+  "name": "tfk-generate-unique-filename",
+  "version": "1.0.0",
+  "description": "Generates unique filename",
+  "license": "MIT",
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.6.2"
+  },
+  "scripts": {
+    "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
+    "test-offline": "standard && tap --reporter=spec test/**/*.js",
+    "coverage": "tap test/**/*.js --coverage",
+    "coveralls": "tap --cov --coverage-report=lcov test/**/*.js && cat coverage/lcov.info | coveralls",
+    "setup": "npm install",
+    "standard-fix": "standard --fix"
+  },
+  "keywords": [
+    "Tfk",
+    "Telemark fylkeskommune",
+    "Unique",
+    "Filename"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/telemark/tfk-generate-unique-filename.git"
+  },
+  "bugs": {
+    "url": "http://github.com/telemark/tfk-generate-unique-filename/issues"
+  },
+  "devDependencies": {
+    "coveralls": "2.11.15",
+    "nsp": "2.6.2",
+    "standard": "8.5.0",
+    "tap": "8.0.1"
+  },
+  "dependencies": {
+    "uuid": "3.0.0"
+  }
+}
