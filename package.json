@@ -1,6 +1,6 @@
 {
   "name": "tfk-generate-unique-filename",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Generates unique filename",
   "license": "MIT",
   "author": {
