@@ -1,5 +1,3 @@
-'use strict'
-
 const tap = require('tap')
 const unique = require('../../index')
 const uniqueFile = unique('.pdf')
