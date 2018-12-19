@@ -1,3 +1,3 @@
-const uuid = require('uuid')
+const uuid = require('uuid-random')
 
 module.exports = ending => `${uuid()}${ending || ''}`
