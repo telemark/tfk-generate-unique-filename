@@ -39,6 +39,6 @@
     "tap": "14.10.6"
   },
   "dependencies": {
-    "uuid-random": "1.0.9"
+    "uuid-random": "1.3.2"
   }
 }
